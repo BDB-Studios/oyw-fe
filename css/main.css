@@ -278,3 +278,10 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+#oneyou_branding {
+    width: 215px;
+    height: 60px;
+    background: url("../img/icons.png") -15px -300px;
+}
