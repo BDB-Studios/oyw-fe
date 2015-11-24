@@ -1,0 +1,32 @@
+@import 'modules/colors';
+@import 'modules/fonts';
+
+body {
+    font-family: $font-family;
+    font-style: $font-style-normal;
+    font-variant: $font-variant-normal;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $font-weight-bolder;
+}
+
+h1 {
+    font-size: $font-size-larger;
+    line-height: 1.6em;
+}
+
+h2 {
+    font-size: $font-size-large;
+    line-height: 1.3em;
+}
+
+h3 {
+    line-height: 1em;
+}
+
+p {
+    line-height: 1.25em;
+}
