@@ -11,6 +11,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: $font-weight-bolder;
+    text-transform: uppercase;
+    color: $brand-color-background;
 }
 
 h1 {
@@ -31,6 +33,4 @@ p {
     line-height: 1.25em;
 }
 
-.foo {
 
-}
