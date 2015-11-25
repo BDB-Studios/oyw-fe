@@ -279,26 +279,3 @@ textarea {
     }
 }
 
-.content-bite {
-    text-align: center;
-}
-
-.content-bite p {
-    text-align: justify;
-}
-
-#oneyou_branding {
-     width: 215px;
-     height: 60px;
-     background: url("../img/icons.png") 0px -320px;
- }
-
-#oneyou_branding_small {
-    width: 50px;
-    background: url("../img/icons.png") 0px -320px;
-}
-#smoking_placeholder {
-    width: 260px;
-    height: 160px;
-    background: url("../img/icons.png") -15px -380px;
-}

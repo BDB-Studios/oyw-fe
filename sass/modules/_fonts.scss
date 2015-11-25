@@ -1,3 +1,5 @@
+@import "colors";
+
 /** Font face **/
 $font-family: 'Helvetica Neue', Helvetica, Liberation Sans, Arial, sans-serif;
 
@@ -8,7 +10,24 @@ $font-weight-bolder: 500;
 $font-weight-regular: 400;
 
 /** Font sizes **/
-$font-size-normal: 0.875em;
+$font-size-normal: 1em;
 $font-size-large: 1.2em;
 $font-size-larger: 1.5em;
+
+@mixin large-text {
+    font: {
+        family: $font-family;
+        size: $font-size-larger;
+        weight: $font-weight-bolder;
+    }
+    color: $brand-color-copy;
+}
+
+@mixin copy-text {
+    font : {
+        family:$font-family;
+        size: $font-size-larger;
+    }
+    color: $brand-color-copy;
+}
 

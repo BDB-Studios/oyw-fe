@@ -1,0 +1,73 @@
+@import "fonts";
+
+$thumbnail-image-width:  260px;
+$icon-url: "../img/icons.png";
+$center-align: 0 auto;
+
+@mixin flat-border {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.content-bite {
+    text-align: center;
+}
+
+.content-bite p {
+    text-align: justify;
+    max-width: $thumbnail-image-width;
+    margin: $center-align;
+    line-height: 1.5em;
+    @include copy-text;
+}
+
+#oneyou_branding {
+    width: 215px;
+    height: 60px;
+    background: url($icon-url) 0px -320px;
+}
+
+#oneyou_branding_small {
+    width: 50px;
+    background: url($icon-url) 0px -320px;
+}
+#smoking_placeholder {
+    width: $thumbnail-image-width;
+    height: 160px;
+    background: url($icon-url) -15px -380px;
+}
+
+
+.call-to-action {
+    border: solid 1px $brand-color-golden;
+    margin: $center-align;
+    margin-top: 20px;
+    max-width: $thumbnail-image-width;
+    padding: 10px;
+    vertical-align: baseline;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    text-transform: uppercase;
+    @include large-text;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.navbar {
+    @include large-text;
+    border: none;
+    border-top: $brand-color-background solid 4px;
+    background-color: transparent;
+    @include flat-border;
+
+}
+
+.upper-branding {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
