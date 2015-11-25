@@ -61,7 +61,6 @@ $center-align: 0 auto;
 .navbar {
     @include large-text;
     border: none;
-    border-top: $brand-color-background solid 4px;
     background-color: transparent;
     @include flat-border;
 
@@ -71,3 +70,14 @@ $center-align: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.brand-rule {
+    border-top: $brand-color-background solid 4px;
+    background-color: transparent;
+}
+
+.brand-rule-golder{
+    border-top: $brand-color-golden solid 4px;
+    background-color: transparent;
+}
+
