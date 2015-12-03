@@ -1,13 +1,33 @@
 @import "fonts";
 
 $thumbnail-image-width:  260px;
-$icon-url: "../img/icons.png";
+$icon-url: "../img/tmp_sprites.png";
 $center-align: 0 auto;
 
 @mixin flat-border {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+}
+
+@mixin image-class {
+    display: block;
+    clear: both;
+    position: relative;
+    padding: 0;
+}
+
+@mixin body-fill {
+    background-color: $background-color;
+    background: $background-color-rgb;
+    background: $background-color-rgba;
+}
+
+.copy-container {
+    font-size: $font-size-larger;
+    min-height: 600px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .content-bite {
@@ -22,10 +42,11 @@ $center-align: 0 auto;
     @include copy-text;
 }
 
-#oneyou_branding {
-    width: 215px;
-    height: 60px;
-    background: url($icon-url) 0px -320px;
+.oneyou_branding {
+    width: 204px;
+    height: 64px;
+    @include image-class;
+    background: url($icon-url) no-repeat 0px 0px;
 }
 
 #oneyou_branding_small {
@@ -72,12 +93,27 @@ $center-align: 0 auto;
 }
 
 .brand-rule {
-    border-top: $brand-color-background solid 4px;
+    border-top: $brand-color-background solid 2px;
     background-color: transparent;
 }
 
-.brand-rule-golder{
-    border-top: $brand-color-golden solid 4px;
+.brand-rule-golden{
+    border-top: $brand-color-golden solid 2px;
     background-color: transparent;
 }
 
+.navbar-default .navbar-nav>.active>a {
+    background-color: $brand-color-golden;
+}
+
+.container {
+    max-width: 1170px;
+    background-color: $brand-color-copy-inverse;
+    padding: 0px 35px 0px 35px;
+}
+
+.footer-container {
+    background-color: $footer-color;
+    height: 460px;
+    color: $brand-color-copy;
+}

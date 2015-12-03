@@ -1,6 +1,7 @@
 @import 'modules/colors';
 @import 'modules/fonts';
 @import 'modules/blocks';
+@import "modules/media";
 
 body {
     font-family: $font-family;
@@ -8,6 +9,8 @@ body {
     font-variant: $font-variant-normal;
     font-weight: $font-weight-regular;
     font-size: $font-size-normal;
+    color: $brand-color-copy;
+    @include body-fill
 }
 
 h1, h2, h3, h4, h5, h6 {
