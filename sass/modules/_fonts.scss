@@ -1,18 +1,41 @@
-@import "colors";
+@import "colours";
+@import "variables";
 
-/** Font face **/
-$font-family: 'Helvetica Neue', Helvetica, Liberation Sans, Arial, sans-serif;
+/* typography */
+@font-face {
+    font-family: 'OneYouSansBold';
+    src: url('one_you-sans-bold.eot.eot');
+    src: url('one_you-sans-bold.eot?#iefix') format('embedded-opentype'),
+    url('one_you-sans-bold.woff2') format('woff2a'),
+    url('one_you-sans-bold.woff') format('woff'),
+    url('one_you-sans-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/** Font styles **/
-$font-style-normal: normal;
-$font-variant-normal: normal;
-$font-weight-bolder: 500;
-$font-weight-regular: 400;
+/* typography */
+@font-face {
+    font-family: 'OneYouSansRegular';
+    src: url('one_you-sans-regular.eot');
+    src: url('one_you-sans-regular.eot?#iefix') format('embedded-opentype'),
+    url('one_you-sans-regular.woff2') format('woff2'),
+    url('one_you-sans-regular.woff') format('woff'),
+    url('one_you-sans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/** Font sizes **/
-$font-size-normal: 1em;
-$font-size-large: 1.2em;
-$font-size-larger: 1.5em;
+/* typography */
+@font-face {
+    font-family: 'OneYouScriptBold';
+    src: url('one_you-script-bold.eot');
+    src: url('one_you-script-bold.eot?#iefix') format('embedded-opentype'),
+    url('one_you-script-bold.woff2') format('woff2'),
+    url('one_you-script-bold.woff') format('woff'),
+    url('one_you-script-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @mixin large-text {
     font: {

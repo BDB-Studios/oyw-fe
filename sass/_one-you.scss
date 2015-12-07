@@ -1,7 +1,8 @@
-@import 'modules/colors';
+@import 'modules/_colours';
 @import 'modules/fonts';
 @import 'modules/blocks';
 @import "modules/media";
+@import "modules/footer";
 
 body {
     font-family: $font-family;

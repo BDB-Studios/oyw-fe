@@ -1,0 +1,24 @@
+/** Font face **/
+$font-family: 'Helvetica Neue', Helvetica, Liberation Sans, Arial, sans-serif;
+$font-family-one_you: 'OneYouSansRegular', $font-family;
+$font-family-one_you_bold: 'OneYouSansBold', $font-family;
+$font-family-one_you_script: 'OneYouScriptBold', $font-family;
+
+/** Font styles **/
+$font-style-normal: normal;
+$font-variant-normal: normal;
+$font-weight-bold: bold;
+$font-weight-bolder: 500;
+$font-weight-regular: 400;
+
+/** Font sizes **/
+$font-size-normal: 17px;
+$font-size-large: 1.2em;
+$font-size-larger: 1.5em;
+$font-size-menu: 20px;
+
+$thumbnail-image-width:  260px;
+$icon-url: "../img/sprites.png";
+$center-align: 0 auto;
+
+$content-width: 1242px;

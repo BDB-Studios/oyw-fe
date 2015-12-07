@@ -1,0 +1,90 @@
+@import "colours";
+@import "fonts";
+
+.banner-container {
+    background: $brand-color-inverse;
+    padding: 24px 50px 10px 50px;
+    position: relative;
+}
+
+.banner-container span {
+    vertical-align: text-top;
+}
+
+.social_media_lead_text {
+    @include image-class;
+    width: 113px;
+    height: 16px;
+    top:-10px;
+    position: relative;
+    display: inline-block;
+    background: url($icon-url) -210px 0;
+}
+
+.social_media_facebook_header {
+    @include image-class;
+    width: 29px;
+    height: 29px;
+    display: inline-block;
+    position: relative;
+    background: url($icon-url) -210px -15px;
+}
+
+.social_media_twitter_header {
+    @include image-class;
+    width: 29px;
+    height: 29px;
+    display: inline-block;
+    position: relative;
+    background: url($icon-url) -244px -15px;
+}
+
+.navbar {
+    @include large-text;
+    border: none;
+    @include flat-border;
+    position: relative;
+    padding: 0 35px;
+    display: block;
+    background-color: $brand-color-copy-inverse;
+}
+
+.navbar-nav {
+    font-family: $font-family-one_you_bold;
+    font-size: $font-size-menu;
+    font-weight: $font-weight-bold;
+    color: $brand-color-copy;
+
+}
+.navbar-default .navbar-nav  li  a,
+.navbar-default .navbar-nav  li  a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $brand-color-copy;
+}
+
+.navbar.navbar-default .row {
+    margin-left: -25px;
+}
+
+.navbar-default .navbar-nav  li  a:active {
+    background-color: $brand-color-golden;
+}
+
+.oneyou_social_media {
+    float:right;
+}
+
+.you_branding {
+    font-family: $font-family-one_you_script;
+    color: $brand-color;
+}
+
+.masthead {
+    background-color: $brand-color-inverse;
+    display: inline;
+}
+
+.menu-row {
+    background-color: $brand-color-copy-inverse;
+}

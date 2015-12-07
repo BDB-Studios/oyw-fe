@@ -1,0 +1,11 @@
+@import "oneyou.mixins";
+
+.oneyou_branding {
+    width: 204px;
+    height: 60px;
+    @include image-class;
+    display: inline-block;
+    background: url($icon-url) no-repeat;
+}
+
+

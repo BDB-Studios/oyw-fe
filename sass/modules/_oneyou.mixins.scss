@@ -1,0 +1,24 @@
+@import "fonts";
+@import "variables";
+
+@mixin flat-border {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+@mixin image-class {
+    display: block;
+    clear: both;
+    position: relative;
+    padding: 0;
+}
+
+@mixin body-fill {
+    background-color: $background-color;
+    background: $background-color-rgb;
+    background: $background-color-rgba;
+}
+
+
+
