@@ -6,7 +6,7 @@
 
 .copy-container {
     padding: 0;
-    margin: 0;
+    margin: 0 auto 15px auto;
 }
 
 .accessibility {
@@ -74,4 +74,11 @@
     padding: 10px;
     min-width: 240px;
     display: inline-block;
+}
+
+.three_across_small_content {
+    margin: 0 auto 10px auto;
+}
+.content-banner {
+    margin: 30px auto 0 auto;
 }
