@@ -82,3 +82,19 @@
 .content-banner {
     margin: 30px auto 0 auto;
 }
+
+//Second section
+.behaviour {
+    font-family: $font-family;
+    font-size: 14px;
+}
+
+.behaviour .expanded {
+    border-bottom: $brand-color-golden solid 5px;
+    max-height: 438px;
+}
+
+.behaviour .expanded .overlay {
+    background-color: rgba(0,0,0,.5);
+}
+
